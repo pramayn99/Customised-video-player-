@@ -1,0 +1,49 @@
+@charset "utf-8";
+body{
+	text-align:center;
+}
+header,section,aside,hgroup,footer,article,nav{
+	display:block;
+}
+
+#skin{
+	width:700px;
+	margin:20px auto;
+	padding:35px 5px 5px 5px;
+	background-color:#212020;
+	border:2px solid #085CB5;
+	border-radius:20px;
+}
+
+#buttons{
+	float:left;
+	margin-left:20px;
+}
+
+#defaultBar{
+	position:relative;
+	float:left;
+	margin-top:15px;
+	border-radius:50px;
+	width:593px;
+	height:5px;
+	padding:4px;
+	background:#757575;
+}
+
+#progressBar{
+	position:absolute;
+	width:0px;
+	height:5px;
+	background:#085CB5;
+	border-radius:50px;
+}
+
+button:focus{
+	outline:0;
+}
+
+	
+	
+	
+
